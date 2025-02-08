@@ -1,4 +1,4 @@
-package com.example.one_form.service;
+package com.example.simple_form.service;
 
 import org.springframework.stereotype.Service;
 
@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 public class FormService {
 
     private final FormValidationService formValidationService;
-
 
     public FormService(FormValidationService formValidationService) {
         this.formValidationService = formValidationService;
